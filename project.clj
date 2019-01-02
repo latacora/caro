@@ -9,5 +9,7 @@
   :main ^:skip-aot caro.core
   :target-path "target/%s"
   :global-vars {*warn-on-reflection* true}
+  :deploy-repositories [["releases" :clojars]
+                        ["snapshots" :clojars]]
   :profiles {:uberjar {:aot :all
                        :native-image {:opts ["-Dclojure.compiler.direct-linking=true"]}}})
