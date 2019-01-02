@@ -21,7 +21,7 @@ Here we'll define a script that takes a number and increments it just so we can
 demo what is going on in future examples:
 
 ```
-cat <<<EOF > inc
+cat <<EOF > inc
 #!/usr/bin/env python3
 import sys
 import json
