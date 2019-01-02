@@ -1,4 +1,4 @@
-(defproject caro "0.1.0-SNAPSHOT"
+(defproject caro "0.1.0"
   :description "Eval-and-replace, but inside a tree"
   :url "https://github.com/latacora/caro"
   :license {:name "Eclipse Public License"
