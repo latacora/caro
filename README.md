@@ -7,7 +7,7 @@ Given JSON structures on stdin:
 - replace the value in the tree with stdout of the program, parsed as JSON (or as a string if it's not)
 - produce the result on stdout
 
-Named because it's Tree **E***val **A***nd **R**eplace and "caro caro" is also known as
+Named because it's Tree **E**val **A**nd **R**eplace and "caro caro" is also known as
 the [elephant-ear tree][eet] because it produces ear-shaped seed pods.
 
 [eet]: https://en.wikipedia.org/wiki/Enterolobium_cyclocarpum
