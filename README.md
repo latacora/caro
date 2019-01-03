@@ -48,7 +48,7 @@ echo '{"a": 1}' | caro ./inc '["a"]'
 Paths can traverse multiple levels:
 
 ```
-echo '{"a": {"b": {"c": 1}}}' | caro inc '["a" "b" "c"]
+echo '{"a": {"b": {"c": 1}}}' | caro inc '["a" "b" "c"]'
 # {"a": {"b": {"c": 2}}}'
 ```
 
