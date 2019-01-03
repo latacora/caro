@@ -49,7 +49,7 @@ Paths can traverse multiple levels:
 
 ```
 echo '{"a": {"b": {"c": 1}}}' | caro inc '["a" "b" "c"]'
-# {"a": {"b": {"c": 2}}}'
+# {"a": {"b": {"c": 2}}}
 ```
 
 Pass multiple paths to replace multiple parts in the tree:
