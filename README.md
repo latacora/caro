@@ -48,8 +48,8 @@ echo '{"a": 1}' | caro ./inc '["a"]'
 Paths can traverse multiple levels:
 
 ```
-echo '{"a": {"b": {"c": 1}}}' | caro inc '["a" "b" "c"]
-# {"a": {"b": {"c": 2}}}'
+echo '{"a": {"b": {"c": 1}}}' | caro inc '["a" "b" "c"]'
+# {"a": {"b": {"c": 2}}}
 ```
 
 Pass multiple paths to replace multiple parts in the tree:
