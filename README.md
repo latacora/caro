@@ -102,7 +102,12 @@ caro.
 
 If you wanted to just call each command multiple times instead of taking
 multiple JSONs on standard input, call caro multiple times. caro works this way
-so you can use tools that compare "adjacent" JSON data.
+so you can use tools that compare "adjacent" JSON data. Unsurprisingly, caro
+pairs quite well with [reciffist][recidiffist] and
+[recidiffist-cli][recidiffist-cli] in particular.
+
+[recidiffist]: https://github.com/latacora/recidiffist
+[recidiffist-cli]: https://github.com/latacora/recidiffist-cli
 
 ## License
 
